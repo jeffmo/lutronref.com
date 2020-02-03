@@ -10,9 +10,7 @@
     <script>
       import("/js/web-init.js").then((m) => {
         m.init(document.getElementById("root"));
-      }).catch(e => setTimeout(() => {
-        throw e;
-      }, 0));
+      });
     </script>
   </body>
 </html>

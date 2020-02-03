@@ -1,0 +1,28 @@
+.SearchTableContainer {
+  border: 1px solid #999;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.SearchTableCol {
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchTableColHeader {
+  background-color: #666;
+  color: #fff;
+  font-weight: bolder;
+  padding: 5px;
+  text-align: center;
+}
+
+.SearchTableColValue {
+  padding: 2px;
+}
+
+.SearchTableColValueEven {
+  background-color: #ccc;
+}

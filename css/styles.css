@@ -1,5 +1,7 @@
 @import "reset.css";
 
+@import "SearchTable.css";
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   height: 100%;
