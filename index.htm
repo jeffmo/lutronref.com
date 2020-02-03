@@ -1,1 +1,18 @@
-Hey hey
+<html>
+  <head>
+    <title>LutronRef</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  </head>
+  <body>
+    <div id="root">Loading...</div>
+    <script src="/js/third-party/react.dev.js"></script>
+    <script src="/js/third-party/react-dom.dev.js"></script>
+    <script>
+      import("/js/web-init.js").then((m) => {
+        m.init(document.getElementById("root"));
+      }).catch(e => setTimeout(() => {
+        throw e;
+      }, 0));
+    </script>
+  </body>
+</html>
